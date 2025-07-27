@@ -18,9 +18,9 @@ export const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <Card className="border-0 shadow-soft bg-card/80 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-foreground">Kontaktinė informacija</CardTitle>
@@ -85,49 +85,6 @@ export const Contact = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* Contact Form */}
-          <Card className="border-0 shadow-elegant bg-card/80 backdrop-blur-sm">
-            <CardHeader>
-              <CardTitle className="text-2xl text-foreground">Susisiekite su mumis</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Vardas Pavardė</Label>
-                    <Input id="name" placeholder="Jūsų vardas ir pavardė" />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Įmonė</Label>
-                    <Input id="company" placeholder="Įmonės pavadinimas" />
-                  </div>
-                </div>
-                
-                <div className="space-y-2">
-                  <Label htmlFor="phone">Telefonas</Label>
-                  <Input id="phone" type="tel" placeholder="+370 XXX XXXXX" />
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="message">Žinutė *</Label>
-                  <Textarea 
-                    id="message" 
-                    placeholder="Parašykite savo žinutę..." 
-                    rows={5}
-                    required 
-                  />
-                </div>
-
-                <Button 
-                  type="submit"
-                  className="w-full bg-brand-gold hover:bg-brand-gold/90 text-primary-foreground font-semibold py-3"
-                >
-                  Siųsti žinutę
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
