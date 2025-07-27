@@ -15,53 +15,6 @@ export const Inventory = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h3 className="text-3xl font-bold text-foreground mb-6">
-              Užsakymų valdymo sistema
-            </h3>
-            <div className="space-y-4 mb-8">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Moderni automatizuota sistema, skirta efektyviam užsakymų valdymui ir atsargų kontrolei. Sistema prieinama tik prisijungusiems vartotojams ir užtikrina sklandų procesų valdymą.
-              </p>
-              <div className="flex items-center space-x-3">
-                <CheckCircle className="w-6 h-6 text-brand-gold flex-shrink-0" />
-                <span className="text-muted-foreground">Automatizuotas užsakymų apdorojimas</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <CheckCircle className="w-6 h-6 text-brand-gold flex-shrink-0" />
-                <span className="text-muted-foreground">Realaus laiko atsargų stebėjimas</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <CheckCircle className="w-6 h-6 text-brand-gold flex-shrink-0" />
-                <span className="text-muted-foreground">Detalūs analitikos pranešimai</span>
-              </div>
-            </div>
-            <Button className="bg-brand-gold hover:bg-brand-gold/90 text-primary-foreground group">
-              Prisijungti prie sistemos
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </div>
-
-          <Card className="border-0 shadow-elegant bg-brand-gold/10 backdrop-blur-sm">
-            <CardHeader>
-              <CardTitle className="text-2xl text-brand-dark flex items-center">
-                <Settings className="w-6 h-6 mr-2" />
-                Sistema „orders.solvena.lt"
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground mb-6">
-                Patogus ir intuityvus sprendimas jūsų užsakymų valdymui. Prieinamas 24/7 su visomis reikalingomis funkcijomis efektyviam darbui.
-              </p>
-              <div className="bg-background/50 rounded-lg p-4">
-                <p className="text-sm text-muted-foreground mb-2">Prieiga:</p>
-                <p className="font-semibold text-foreground">Tik registruotiems vartotojams</p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
         <div>
           <h3 className="text-3xl font-bold text-foreground mb-12 text-center">
             Sertifikavimo ir kokybės užtikrinimo procesai
